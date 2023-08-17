@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Service</title>
+    <style>
+        *{
+            color: #555;
+            margin:0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background: #ecf0f3;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 25px;
+            width: auto;
+            height: 75vh;
+            justify-content: space-around;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }        
+        .announce{
+            position: relative;
+            min-width: 30%;
+            height: 80%;
+            border: 2px solid transparent;
+            border-radius: 25px;
+            box-shadow: 13px 13px 10px #cbced1, -13px -13px 10px #ffffff;
+        }        
+        .event{
+            position: relative;
+            min-width: 30%;
+            height: 80%;
+            border: 2px solid transparent;
+            border-radius: 25px;
+            box-shadow: 13px 13px 10px #cbced1, -13px -13px 10px #ffffff;
+        }        
+        .absent{
+            position: relative;
+            min-width: 30%;
+            height: 80%;
+            border: 2px solid transparent;
+            border-radius: 25px;
+            box-shadow: 13px 13px 10px #cbced1, -13px -13px 10px #ffffff;
+        }
+        .title{
+            position: absolute;
+            border-bottom: 2px solid grey;
+            width:100%;
+            height: 15%;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 5%;
+            z-index: 10;
+            display: inline-block;
+        }
+        .lists{
+            position: absolute;
+            width:100%;
+            height: 85%;
+            bottom: 0;
+            overflow-y: scroll;
+        }
+        ul{
+            list-style-type: none;
+            font-size: 1.2rem;
+            padding-left: 5%;
+            padding-right: 5%;
+            word-wrap: break-word;
+
+        }
+        li{
+            margin-top: 5%;
+            box-shadow: inset 8px 8px 8px #cbced1,
+                        inset -8px -8px 8px #ffffff;
+            border-radius: 20px;
+            padding: 20px
+        }
+        .main{
+            text-align: center;
+            font-size: 3rem;
+            padding-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        SMS services
+    </div>
+    <div class="container">
+        <div class="announce">
+            <div class="title">
+                Announcements
+            </div>
+            <div class="lists">
+                <ul>
+                    <li>21 July 2023  MBA specializations can be diverse.</li>
+                    <li>23 Sep CAT2023notification expected  to be released.</li>
+                    <li>15 Jan Indian Maritime University (IMU) is a central .</li>
+                    <li>25 Mar The Pilani MBA course was named MMS.</li>
+                    <li>12 Feb The Jharkhand Combined Competitive Exam.</li>  
+                    <li>21 July 2023  MBA specializations can be diverse.</li>
+                    <li>23 Sep CAT2023notification expected  to be released.</li>
+                    <li>15 Jan Indian Maritime University (IMU) is a central .</li>
+                    <li>25 Mar The Pilani MBA course was named MMS.</li>
+                    <li>12 Feb The Jharkhand Combined Competitive Exam.</li>    
+                    <li>21 July 2023  MBA specializations can be diverse.</li>
+                    <li>23 Sep CAT2023notification expected  to be released.</li>
+                    <li>15 Jan Indian Maritime University (IMU) is a central .</li>
+                    <li>25 Mar The Pilani MBA course was named MMS.</li>
+                    <li>12 Feb The Jharkhand Combined Competitive Exam.</li>                  
+                </ul>
+            </div>
+        </div>
+        <div class="event">
+            <div class="title">
+                Events
+            </div>
+            <div class="lists">
+                <ul>
+                    <li>18 August <br>Shri Krishna Janmastami.</li>
+                    <li>17 March <br>Rang Baras Rangeela.</li>
+                    <li>30 December <br>VIRTU CONF 2021.</li>
+                    <li>10 July <br>SrinivasUniversity Orientation in Mukka.</li>
+                    <li>31 March <br>SrinivasUniversity Hotel Tourism in Mangalore.</li>
+                    <li>18 August <br>Shri Krishna Janmastami.</li>
+                    <li>17 March <br>Rang Baras Rangeela.</li>
+                    <li>30 December <br>VIRTU CONF 2021.</li>
+                    <li>10 July <br>SrinivasUniversity Orientation in Mukka.</li>
+                    <li>31 March <br>SrinivasUniversity Hotel Tourism in Mangalore.</li>                    <li>18 August <br>Shri Krishna Janmastami.</li>
+                    <li>17 March <br>Rang Baras Rangeela.</li>
+                    <li>30 December <br>VIRTU CONF 2021.</li>
+                    <li>10 July <br>SrinivasUniversity Orientation in Mukka.</li>
+                    <li>31 March <br>SrinivasUniversity Hotel Tourism in Mangalore.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="absent">
+            <div class="title">
+                Absentees
+            </div>
+            <div class="lists">
+                <ul>
+                    <li>2-3-2023 <br>Ajmal</li>
+                    <li>2-3-2023 <br>Azmo</li>
+                    <li>2-3-2023 <br>Mahesh</li>
+                    <li>2-3-2023 <br>Jamal</li>
+                    <li>2-3-2023 <br>Baba</li>                    <li>2-3-2023 <br>Ajmal</li>
+                    <li>2-3-2023 <br>Azmo</li>
+                    <li>2-3-2023 <br>Mahesh</li>
+                    <li>2-3-2023 <br>Jamal</li>
+                    <li>2-3-2023 <br>Baba</li>                    <li>2-3-2023 <br>Ajmal</li>
+                    <li>2-3-2023 <br>Azmo</li>
+                    <li>2-3-2023 <br>Mahesh</li>
+                    <li>2-3-2023 <br>Jamal</li>
+                    <li>2-3-2023 <br>Baba</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="PaymentStyle.css">
+    <title>make payment</title>
+    <style>
+        body{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            font-weight: 300;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="#" method="post">
+        <h1>Make Fees Payement</h1>
+        <input type="number" name="fees" id="fees">
+        <script> 
+       function makePayment(amount) {
+        var amount=document.getElementById('amount').value;
+        document.getElementById('result').innerHTML=alert(`Payment of ₹${amount} successful! Thank you.`);
+}
+        </script>
+        <button onclick="makePayment()">Make Payement</button>
+    </form>
+    </div>
+</body>
+</html>

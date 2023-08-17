@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Fee Payment</title>
+    <link rel="stylesheet" type="text/css" href="PaymentStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>College Fee Payment</h2>
+        <form id="fetchStudentForm">
+            <label for="studentId">Student ID:</label>
+            <input type="number" name="studentId" id="studentId" required>
+            <button type="button" onclick="fetchStudent()" value="Fetch_Student">Fetch Student</button>
+        </form>
+        <div id="studentInfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,449 @@
+.header{
+    height: 200px;
+    background-image: url(https://srinivasuniversity.edu.in/images/university.jpg);
+
+}
+
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 65px;
+}
+
+.logo-text{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 500px;
+    font-family: "early times", sans-serif;
+}
+
+.left-section{
+    width: 40%;
+    float: left;
+}
+
+.right-section{
+    width: 60%;
+    float: left;
+}
+
+.body{
+    background-image: url(https://srinivasuniversity.edu.in/images/abt-bg.jpg);
+    width: 100%;
+    height: 550px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.outer-box{
+    width: 30%;
+    height: 400px;
+    background-color: #163139;
+    margin-left: 150px;
+    
+}
+
+.box1{
+    width: 150%;
+    height: 10%;
+    background-color: gold;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+    
+
+}
+
+.box2{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box2:hover{
+    background: #75a9a9;
+}
+
+.box3{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box3:hover{
+    background: #75a9a9;
+}
+.box4{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box4:hover{
+    background: #75a9a9;
+}
+
+.box5{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box5:hover{
+    background: #75a9a9;
+}
+
+.box6{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box6:hover{
+    background: #75a9a9;
+}
+
+.box7{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box7:hover{
+    background: #75a9a9;
+}
+
+.box8{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box8:hover{
+    background: #75a9a9;
+}
+
+.box9{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box9:hover{
+    background: #75a9a9;
+}
+
+.box10{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box10:hover{
+    background: #75a9a9;
+}
+
+.box11{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-bottom: 1px solid #3c6986;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box11:hover{
+    background: #75a9a9;
+}
+
+.box12{
+    width: 150%;
+    height: 10%;
+    background: #024069;
+    border-style: groove;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "early times", sans-serif;
+}
+
+.box12:hover{
+    background: #75a9a9;
+}
+
+
+
+.box1-text{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    text-align: center;
+    
+
+}
+
+.box2-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+    
+
+}
+
+.box3-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box4-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box5-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box6-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box7-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+.box8-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box9-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box10-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.box11-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+    
+
+}
+
+.box12-text{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+
+.right-box1{
+    width: 70%;
+    height: 50px;
+    background-color: teal;
+    border-bottom: 1px solid #ececec;
+    font-family: "early times", sans-serif;
+    color: #ececec;
+}
+
+.right-box1text{
+    padding-left: 100px;
+    font-family: "early times", sans-serif;
+    color: #ececec;
+}
+
+.right-box2{
+    width: 70%;
+    height: 320px;
+    background-color:#75a9a9;
+    padding-top: 10px;
+    
+}
+
+.right-box3{
+    width: 100%;
+    height: 200px;
+    margin-left: 3px;
+   
+    
+}
+
+.right-box4{
+    width: 50%;
+    height: 40px;
+    background-color: #ececec;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.right-box5{
+    width: 50%;
+    height: 40px;
+    background-color: #ececec;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.right-box6{
+    width: 50%;
+    height: 40px;
+    background-color: #ececec;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.right-box7{
+    width: 50%;
+    height: 40px;
+    background-color: #ececec;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.foot{
+    width: 100%;
+    height: 50px;
+    
+    margin: 0;
+}
+
+.right-box4text{
+    font-size: 27px;
+    color: rgb(211, 24, 24);
+    text-decoration: none;
+    margin-left: 35px;
+}
+.right-box4text:hover{
+    color: #75a9a9;
+}
+
+.right-box5text{
+    font-size: 27px;
+    color: rgb(211, 24, 24);
+    text-decoration: none;
+    margin-left: 23px;
+}
+
+.right-box5text:hover{
+    color: #75a9a9;
+}
+
+.right-box6text{
+    font-size: 27px;
+    color: rgb(211, 24, 24);
+    text-decoration: none;
+    margin-left: 23px;
+}
+
+.right-box6text:hover{
+    color: #75a9a9;
+}
+
+.right-box7text{
+    font-size: 34px;
+    color: rgb(211, 24, 24);
+    text-decoration: none;
+    margin-left: 86px;
+}
+
+.right-box7text:hover{
+    color: #75a9a9;
+}
+
