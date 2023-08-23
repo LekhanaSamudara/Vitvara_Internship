@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>REGISTRATION FORM</title>
+    <style type="text/css">
+      body {
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(srilogo.jpeg);
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        margin-top: 150px;
+      }
+      div{
+        background: rgb(247,246,246);
+        background: radial-gradient(circle, rgba(247,246,246,1) 0%, rgba(166,168,170,1) 100%);
+        backdrop-filter: blur(5px);
+        display: flow-root;
+        text-align: center;
+      }
+      #rf{
+        height:auto;
+        width: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="database.php" method="post">
+    <div id="rf">
+        <fieldset>
+        <h2>--REGISTRATION FORM--</h2>
+      <p>FIRST NAME: <input type="text" name="fname" id="fname" required/> </p>
+      <p>MIDDLE NAME: <input type="text" name="mname" id="mname" /> </p>
+      <p>LAST NAME: <input type="text" name="lname" id="lname" required/> </p>
+      <p><legend>GENDER:</legend>
+        &nbsp;&nbsp;&nbsp;&nbsp; MALE<input type="radio" name="gender" value="m" id="male" required>
+        &nbsp;&nbsp;&nbsp;&nbsp; FEMALE<input type="radio" name="gender" value="f" id="female" required></p>
+        <p>E-Mail: <input type="email" name="email" id="email" required></p>
+      <p>PASSWORD: <input type="password" name="password" id="password" required /></p>
+      <input type="submit" />
+    </fieldset>
+    </div>
+</form>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAYEMENT</title>
+    <style type="text/css">
+        body{
+            background-color: cornflowerblue;
+            max-height: fit-content;
+            max-width: fit-content;
+        }
+        #PAYMENT_DETAIL{
+            align-content: center;
+            margin-top:100px;
+            margin-bottom: 100px;
+            margin-left: 220%;
+            margin-right: 150%;
+            padding: 0px;
+
+        }
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div id="PAYMENT_DETAIL">
+        <h1>PAYEMENT</h1>
+        <H6>*Required to fill </H6>
+        <p>
+          CARD TYPE*:<select name="cardtype" id="cardtype" required>
+            <option value="">--select card type--</option>
+            <option value="Visa">VISA</option>
+            <option value="RuPay">Rupay</option>
+            <option value="Master_Card">Master Card</option>
+          </select>
+        </p>
+        <p>
+          CARD NUMBER*:<input
+            type="number"
+            name="card_no"
+            id="card_no"
+            required
+          />
+        </p>
+        <p>
+          CARD EXPIRE*: <input type="date" name="e_date" id="e_date" required>
+        </p>
+        <p>CVV*: <input type="password" name="passs" id="passs" required></p>
+        <a href="done.html"> <input type="button" value="submit"></a>
+      </div>
+    </form>
+  </body>
+</html>
